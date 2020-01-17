@@ -1,0 +1,872 @@
+---
+beginTime: 1573726875.216035000
+endTime: 1573726878.925066000
+receiveSuccesRate: 0.9
+confirmSuccesRate: 0.8
+responseTimesToReceive:
+- 158
+- 163
+- 164
+- 166
+- 168
+- 172
+- 179
+- 182
+- 191
+- 192
+- 200
+- 203
+- 203
+- 204
+- 207
+- 210
+- 215
+- 218
+- 225
+- 244
+- 245
+- 245
+- 246
+- 247
+- 251
+- 252
+- 280
+- 282
+- 284
+- 289
+- 289
+- 301
+- 303
+- 305
+- 316
+- 326
+- 327
+- 331
+- 352
+- 355
+- 356
+- 366
+- 371
+- 375
+- 408
+responseTimesToConfirm:
+- 1189
+- 1216
+- 1253
+- 1295
+- 1349
+- 1361
+- 1382
+- 1440
+- 1467
+- 1500
+- 1516
+- 1534
+- 1615
+- 1641
+- 1655
+- 1683
+- 1708
+- 1744
+- 1763
+- 1763
+- 1826
+- 1831
+- 1891
+- 1963
+- 2054
+- 2120
+- 2189
+- 2267
+- 2370
+- 2370
+- 2478
+- 2530
+- 2579
+- 2591
+- 2591
+- 2614
+- 2711
+- 2720
+- 2728
+- 2754
+statusTimeline:
+  2019-11-14T10:21:15.216036Z:
+    amountSend: 1
+    amountReceived: 0
+    amountConfirmed: 0
+    amountFailed: 0
+  2019-11-14T10:21:15.216048Z:
+    amountSend: 2
+    amountReceived: 0
+    amountConfirmed: 0
+    amountFailed: 0
+  2019-11-14T10:21:15.216050Z:
+    amountSend: 3
+    amountReceived: 0
+    amountConfirmed: 0
+    amountFailed: 0
+  2019-11-14T10:21:15.216056Z:
+    amountSend: 4
+    amountReceived: 0
+    amountConfirmed: 0
+    amountFailed: 0
+  2019-11-14T10:21:15.216057Z:
+    amountSend: 5
+    amountReceived: 0
+    amountConfirmed: 0
+    amountFailed: 0
+  2019-11-14T10:21:15.390133Z:
+    amountSend: 4
+    amountReceived: 0
+    amountConfirmed: 0
+    amountFailed: 1
+  2019-11-14T10:21:15.400479Z:
+    amountSend: 5
+    amountReceived: 0
+    amountConfirmed: 0
+    amountFailed: 1
+  2019-11-14T10:21:15.423347Z:
+    amountSend: 4
+    amountReceived: 1
+    amountConfirmed: 0
+    amountFailed: 1
+  2019-11-14T10:21:15.425177Z:
+    amountSend: 5
+    amountReceived: 1
+    amountConfirmed: 0
+    amountFailed: 1
+  2019-11-14T10:21:15.467739Z:
+    amountSend: 4
+    amountReceived: 2
+    amountConfirmed: 0
+    amountFailed: 1
+  2019-11-14T10:21:15.469741Z:
+    amountSend: 5
+    amountReceived: 2
+    amountConfirmed: 0
+    amountFailed: 1
+  2019-11-14T10:21:15.498612Z:
+    amountSend: 4
+    amountReceived: 3
+    amountConfirmed: 0
+    amountFailed: 1
+  2019-11-14T10:21:15.500082Z:
+    amountSend: 5
+    amountReceived: 3
+    amountConfirmed: 0
+    amountFailed: 1
+  2019-11-14T10:21:15.532672Z:
+    amountSend: 4
+    amountReceived: 4
+    amountConfirmed: 0
+    amountFailed: 1
+  2019-11-14T10:21:15.534771Z:
+    amountSend: 5
+    amountReceived: 4
+    amountConfirmed: 0
+    amountFailed: 1
+  2019-11-14T10:21:15.576303Z:
+    amountSend: 4
+    amountReceived: 4
+    amountConfirmed: 0
+    amountFailed: 2
+  2019-11-14T10:21:15.578335Z:
+    amountSend: 5
+    amountReceived: 4
+    amountConfirmed: 0
+    amountFailed: 2
+  2019-11-14T10:21:15.629240Z:
+    amountSend: 4
+    amountReceived: 5
+    amountConfirmed: 0
+    amountFailed: 2
+  2019-11-14T10:21:15.631087Z:
+    amountSend: 5
+    amountReceived: 5
+    amountConfirmed: 0
+    amountFailed: 2
+  2019-11-14T10:21:15.685267Z:
+    amountSend: 4
+    amountReceived: 6
+    amountConfirmed: 0
+    amountFailed: 2
+  2019-11-14T10:21:15.687860Z:
+    amountSend: 5
+    amountReceived: 6
+    amountConfirmed: 0
+    amountFailed: 2
+  2019-11-14T10:21:15.801538Z:
+    amountSend: 4
+    amountReceived: 7
+    amountConfirmed: 0
+    amountFailed: 2
+  2019-11-14T10:21:15.802911Z:
+    amountSend: 5
+    amountReceived: 7
+    amountConfirmed: 0
+    amountFailed: 2
+  2019-11-14T10:21:15.865925Z:
+    amountSend: 4
+    amountReceived: 8
+    amountConfirmed: 0
+    amountFailed: 2
+  2019-11-14T10:21:15.867258Z:
+    amountSend: 5
+    amountReceived: 8
+    amountConfirmed: 0
+    amountFailed: 2
+  2019-11-14T10:21:15.939088Z:
+    amountSend: 4
+    amountReceived: 8
+    amountConfirmed: 0
+    amountFailed: 3
+  2019-11-14T10:21:15.940492Z:
+    amountSend: 5
+    amountReceived: 8
+    amountConfirmed: 0
+    amountFailed: 3
+  2019-11-14T10:21:16.006378Z:
+    amountSend: 4
+    amountReceived: 9
+    amountConfirmed: 0
+    amountFailed: 3
+  2019-11-14T10:21:16.007875Z:
+    amountSend: 5
+    amountReceived: 9
+    amountConfirmed: 0
+    amountFailed: 3
+  2019-11-14T10:21:16.096132Z:
+    amountSend: 4
+    amountReceived: 10
+    amountConfirmed: 0
+    amountFailed: 3
+  2019-11-14T10:21:16.097346Z:
+    amountSend: 5
+    amountReceived: 10
+    amountConfirmed: 0
+    amountFailed: 3
+  2019-11-14T10:21:16.169730Z:
+    amountSend: 4
+    amountReceived: 11
+    amountConfirmed: 0
+    amountFailed: 3
+  2019-11-14T10:21:16.171240Z:
+    amountSend: 5
+    amountReceived: 11
+    amountConfirmed: 0
+    amountFailed: 3
+  2019-11-14T10:21:16.238914Z:
+    amountSend: 4
+    amountReceived: 12
+    amountConfirmed: 0
+    amountFailed: 3
+  2019-11-14T10:21:16.239973Z:
+    amountSend: 5
+    amountReceived: 12
+    amountConfirmed: 0
+    amountFailed: 3
+  2019-11-14T10:21:16.333494Z:
+    amountSend: 4
+    amountReceived: 12
+    amountConfirmed: 0
+    amountFailed: 4
+  2019-11-14T10:21:16.335265Z:
+    amountSend: 5
+    amountReceived: 12
+    amountConfirmed: 0
+    amountFailed: 4
+  2019-11-14T10:21:16.364532Z:
+    amountSend: 4
+    amountReceived: 13
+    amountConfirmed: 0
+    amountFailed: 4
+  2019-11-14T10:21:16.365791Z:
+    amountSend: 5
+    amountReceived: 13
+    amountConfirmed: 0
+    amountFailed: 4
+  2019-11-14T10:21:16.452638Z:
+    amountSend: 4
+    amountReceived: 14
+    amountConfirmed: 0
+    amountFailed: 4
+  2019-11-14T10:21:16.454213Z:
+    amountSend: 5
+    amountReceived: 14
+    amountConfirmed: 0
+    amountFailed: 4
+  2019-11-14T10:21:16.523750Z:
+    amountSend: 4
+    amountReceived: 15
+    amountConfirmed: 0
+    amountFailed: 4
+  2019-11-14T10:21:16.525548Z:
+    amountSend: 5
+    amountReceived: 15
+    amountConfirmed: 0
+    amountFailed: 4
+  2019-11-14T10:21:16.545071Z:
+    amountSend: 4
+    amountReceived: 16
+    amountConfirmed: 0
+    amountFailed: 4
+  2019-11-14T10:21:16.546396Z:
+    amountSend: 5
+    amountReceived: 16
+    amountConfirmed: 0
+    amountFailed: 4
+  2019-11-14T10:21:16.646438Z:
+    amountSend: 4
+    amountReceived: 16
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.648435Z:
+    amountSend: 5
+    amountReceived: 16
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.668964Z:
+    amountSend: 4
+    amountReceived: 17
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.670060Z:
+    amountSend: 5
+    amountReceived: 17
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.743952Z:
+    amountSend: 4
+    amountReceived: 18
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.745710Z:
+    amountSend: 5
+    amountReceived: 18
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.770897Z:
+    amountSend: 4
+    amountReceived: 19
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.772233Z:
+    amountSend: 5
+    amountReceived: 19
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.799130Z:
+    amountSend: 4
+    amountReceived: 20
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.800187Z:
+    amountSend: 5
+    amountReceived: 20
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.874267Z:
+    amountSend: 4
+    amountReceived: 21
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.875984Z:
+    amountSend: 5
+    amountReceived: 21
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.917391Z:
+    amountSend: 4
+    amountReceived: 22
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.919049Z:
+    amountSend: 5
+    amountReceived: 22
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.990574Z:
+    amountSend: 4
+    amountReceived: 23
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:16.992391Z:
+    amountSend: 5
+    amountReceived: 23
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.017876Z:
+    amountSend: 4
+    amountReceived: 24
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.019417Z:
+    amountSend: 5
+    amountReceived: 24
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.046654Z:
+    amountSend: 4
+    amountReceived: 25
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.048360Z:
+    amountSend: 5
+    amountReceived: 25
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.202275Z:
+    amountSend: 4
+    amountReceived: 26
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.202884Z:
+    amountSend: 5
+    amountReceived: 26
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.246592Z:
+    amountSend: 4
+    amountReceived: 27
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.248183Z:
+    amountSend: 5
+    amountReceived: 27
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.276456Z:
+    amountSend: 4
+    amountReceived: 28
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.276985Z:
+    amountSend: 5
+    amountReceived: 28
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.299890Z:
+    amountSend: 4
+    amountReceived: 29
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.301114Z:
+    amountSend: 5
+    amountReceived: 29
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.338120Z:
+    amountSend: 4
+    amountReceived: 30
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.339334Z:
+    amountSend: 5
+    amountReceived: 30
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.370994Z:
+    amountSend: 4
+    amountReceived: 31
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.372515Z:
+    amountSend: 5
+    amountReceived: 31
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.412602Z:
+    amountSend: 4
+    amountReceived: 32
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.413406Z:
+    amountSend: 5
+    amountReceived: 32
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.487408Z:
+    amountSend: 4
+    amountReceived: 33
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.488682Z:
+    amountSend: 5
+    amountReceived: 33
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.519526Z:
+    amountSend: 4
+    amountReceived: 34
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.520617Z:
+    amountSend: 5
+    amountReceived: 34
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.542887Z:
+    amountSend: 4
+    amountReceived: 35
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.543559Z:
+    amountSend: 5
+    amountReceived: 35
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.575559Z:
+    amountSend: 4
+    amountReceived: 36
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.576551Z:
+    amountSend: 5
+    amountReceived: 36
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.613975Z:
+    amountSend: 4
+    amountReceived: 37
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.614700Z:
+    amountSend: 5
+    amountReceived: 37
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.661008Z:
+    amountSend: 4
+    amountReceived: 38
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.662629Z:
+    amountSend: 5
+    amountReceived: 38
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.703150Z:
+    amountSend: 4
+    amountReceived: 39
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.704608Z:
+    amountSend: 5
+    amountReceived: 39
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.735183Z:
+    amountSend: 4
+    amountReceived: 40
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.735749Z:
+    amountSend: 5
+    amountReceived: 40
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.755584Z:
+    amountSend: 4
+    amountReceived: 41
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.778348Z:
+    amountSend: 3
+    amountReceived: 42
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.855389Z:
+    amountSend: 2
+    amountReceived: 43
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.870844Z:
+    amountSend: 1
+    amountReceived: 44
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.893968Z:
+    amountSend: 0
+    amountReceived: 45
+    amountConfirmed: 0
+    amountFailed: 5
+  2019-11-14T10:21:17.927075Z:
+    amountSend: 0
+    amountReceived: 44
+    amountConfirmed: 1
+    amountFailed: 5
+  2019-11-14T10:21:17.936990Z:
+    amountSend: 0
+    amountReceived: 43
+    amountConfirmed: 2
+    amountFailed: 5
+  2019-11-14T10:21:17.944865Z:
+    amountSend: 0
+    amountReceived: 42
+    amountConfirmed: 3
+    amountFailed: 5
+  2019-11-14T10:21:17.970692Z:
+    amountSend: 0
+    amountReceived: 41
+    amountConfirmed: 4
+    amountFailed: 5
+  2019-11-14T10:21:18.039239Z:
+    amountSend: 0
+    amountReceived: 40
+    amountConfirmed: 5
+    amountFailed: 5
+  2019-11-14T10:21:18.061230Z:
+    amountSend: 0
+    amountReceived: 39
+    amountConfirmed: 6
+    amountFailed: 5
+  2019-11-14T10:21:18.079317Z:
+    amountSend: 0
+    amountReceived: 38
+    amountConfirmed: 7
+    amountFailed: 5
+  2019-11-14T10:21:18.126518Z:
+    amountSend: 0
+    amountReceived: 37
+    amountConfirmed: 8
+    amountFailed: 5
+  2019-11-14T10:21:18.161521Z:
+    amountSend: 0
+    amountReceived: 36
+    amountConfirmed: 9
+    amountFailed: 5
+  2019-11-14T10:21:18.166002Z:
+    amountSend: 0
+    amountReceived: 35
+    amountConfirmed: 10
+    amountFailed: 5
+  2019-11-14T10:21:18.173768Z:
+    amountSend: 0
+    amountReceived: 34
+    amountConfirmed: 11
+    amountFailed: 5
+  2019-11-14T10:21:18.237584Z:
+    amountSend: 0
+    amountReceived: 33
+    amountConfirmed: 12
+    amountFailed: 5
+  2019-11-14T10:21:18.275107Z:
+    amountSend: 0
+    amountReceived: 32
+    amountConfirmed: 13
+    amountFailed: 5
+  2019-11-14T10:21:18.286417Z:
+    amountSend: 0
+    amountReceived: 31
+    amountConfirmed: 14
+    amountFailed: 5
+  2019-11-14T10:21:18.292060Z:
+    amountSend: 0
+    amountReceived: 30
+    amountConfirmed: 15
+    amountFailed: 5
+  2019-11-14T10:21:18.294861Z:
+    amountSend: 0
+    amountReceived: 29
+    amountConfirmed: 16
+    amountFailed: 5
+  2019-11-14T10:21:18.329281Z:
+    amountSend: 0
+    amountReceived: 28
+    amountConfirmed: 17
+    amountFailed: 5
+  2019-11-14T10:21:18.345611Z:
+    amountSend: 0
+    amountReceived: 27
+    amountConfirmed: 18
+    amountFailed: 5
+  2019-11-14T10:21:18.356762Z:
+    amountSend: 0
+    amountReceived: 26
+    amountConfirmed: 19
+    amountFailed: 5
+  2019-11-14T10:21:18.372678Z:
+    amountSend: 0
+    amountReceived: 25
+    amountConfirmed: 20
+    amountFailed: 5
+  2019-11-14T10:21:18.381636Z:
+    amountSend: 0
+    amountReceived: 24
+    amountConfirmed: 20
+    amountFailed: 6
+  2019-11-14T10:21:18.433647Z:
+    amountSend: 0
+    amountReceived: 23
+    amountConfirmed: 21
+    amountFailed: 6
+  2019-11-14T10:21:18.453716Z:
+    amountSend: 0
+    amountReceived: 22
+    amountConfirmed: 22
+    amountFailed: 6
+  2019-11-14T10:21:18.535350Z:
+    amountSend: 0
+    amountReceived: 21
+    amountConfirmed: 23
+    amountFailed: 6
+  2019-11-14T10:21:18.545013Z:
+    amountSend: 0
+    amountReceived: 20
+    amountConfirmed: 24
+    amountFailed: 6
+  2019-11-14T10:21:18.550330Z:
+    amountSend: 0
+    amountReceived: 19
+    amountConfirmed: 24
+    amountFailed: 7
+  2019-11-14T10:21:18.602662Z:
+    amountSend: 0
+    amountReceived: 18
+    amountConfirmed: 25
+    amountFailed: 7
+  2019-11-14T10:21:18.607521Z:
+    amountSend: 0
+    amountReceived: 17
+    amountConfirmed: 26
+    amountFailed: 7
+  2019-11-14T10:21:18.674865Z:
+    amountSend: 0
+    amountReceived: 16
+    amountConfirmed: 27
+    amountFailed: 7
+  2019-11-14T10:21:18.689620Z:
+    amountSend: 0
+    amountReceived: 15
+    amountConfirmed: 28
+    amountFailed: 7
+  2019-11-14T10:21:18.696635Z:
+    amountSend: 0
+    amountReceived: 14
+    amountConfirmed: 28
+    amountFailed: 8
+  2019-11-14T10:21:18.782364Z:
+    amountSend: 0
+    amountReceived: 13
+    amountConfirmed: 29
+    amountFailed: 8
+  2019-11-14T10:21:18.793945Z:
+    amountSend: 0
+    amountReceived: 12
+    amountConfirmed: 30
+    amountFailed: 8
+  2019-11-14T10:21:18.802066Z:
+    amountSend: 0
+    amountReceived: 11
+    amountConfirmed: 31
+    amountFailed: 8
+  2019-11-14T10:21:18.806378Z:
+    amountSend: 0
+    amountReceived: 10
+    amountConfirmed: 32
+    amountFailed: 8
+  2019-11-14T10:21:18.809851Z:
+    amountSend: 0
+    amountReceived: 9
+    amountConfirmed: 32
+    amountFailed: 9
+  2019-11-14T10:21:18.853553Z:
+    amountSend: 0
+    amountReceived: 8
+    amountConfirmed: 33
+    amountFailed: 9
+  2019-11-14T10:21:18.871665Z:
+    amountSend: 0
+    amountReceived: 7
+    amountConfirmed: 34
+    amountFailed: 9
+  2019-11-14T10:21:18.882532Z:
+    amountSend: 0
+    amountReceived: 6
+    amountConfirmed: 35
+    amountFailed: 9
+  2019-11-14T10:21:18.892806Z:
+    amountSend: 0
+    amountReceived: 5
+    amountConfirmed: 36
+    amountFailed: 9
+  2019-11-14T10:21:18.900249Z:
+    amountSend: 0
+    amountReceived: 4
+    amountConfirmed: 36
+    amountFailed: 10
+  2019-11-14T10:21:18.910614Z:
+    amountSend: 0
+    amountReceived: 3
+    amountConfirmed: 37
+    amountFailed: 10
+  2019-11-14T10:21:18.916363Z:
+    amountSend: 0
+    amountReceived: 2
+    amountConfirmed: 38
+    amountFailed: 10
+  2019-11-14T10:21:18.920939Z:
+    amountSend: 0
+    amountReceived: 1
+    amountConfirmed: 39
+    amountFailed: 10
+  2019-11-14T10:21:18.925066Z:
+    amountSend: 0
+    amountReceived: 0
+    amountConfirmed: 40
+    amountFailed: 10
+transactionsPerSecond:
+  2019-11-14T10:21:17.927075Z: 0.5
+  2019-11-14T10:21:17.936990Z: 1.0
+  2019-11-14T10:21:17.944865Z: 1.5
+  2019-11-14T10:21:17.970692Z: 2.0
+  2019-11-14T10:21:18.039239Z: 2.5
+  2019-11-14T10:21:18.061230Z: 3.0
+  2019-11-14T10:21:18.079317Z: 3.5
+  2019-11-14T10:21:18.126518Z: 4.0
+  2019-11-14T10:21:18.161521Z: 4.5
+  2019-11-14T10:21:18.166002Z: 5.0
+  2019-11-14T10:21:18.173768Z: 5.5
+  2019-11-14T10:21:18.237584Z: 4.0
+  2019-11-14T10:21:18.275107Z: 4.333333333333333
+  2019-11-14T10:21:18.286417Z: 4.666666666666667
+  2019-11-14T10:21:18.292060Z: 5.0
+  2019-11-14T10:21:18.294861Z: 5.333333333333333
+  2019-11-14T10:21:18.329281Z: 5.666666666666667
+  2019-11-14T10:21:18.345611Z: 6.0
+  2019-11-14T10:21:18.356762Z: 6.333333333333333
+  2019-11-14T10:21:18.372678Z: 6.666666666666667
+  2019-11-14T10:21:18.433647Z: 7.0
+  2019-11-14T10:21:18.453716Z: 7.333333333333333
+  2019-11-14T10:21:18.535350Z: 7.666666666666667
+  2019-11-14T10:21:18.545013Z: 8.0
+  2019-11-14T10:21:18.602662Z: 8.333333333333334
+  2019-11-14T10:21:18.607521Z: 8.666666666666666
+  2019-11-14T10:21:18.674865Z: 9.0
+  2019-11-14T10:21:18.689620Z: 9.333333333333334
+  2019-11-14T10:21:18.782364Z: 9.666666666666666
+  2019-11-14T10:21:18.793945Z: 10.0
+  2019-11-14T10:21:18.802066Z: 10.333333333333334
+  2019-11-14T10:21:18.806378Z: 10.666666666666666
+  2019-11-14T10:21:18.853553Z: 11.0
+  2019-11-14T10:21:18.871665Z: 11.333333333333334
+  2019-11-14T10:21:18.882532Z: 11.666666666666666
+  2019-11-14T10:21:18.892806Z: 12.0
+  2019-11-14T10:21:18.910614Z: 12.333333333333334
+  2019-11-14T10:21:18.916363Z: 12.666666666666666
+  2019-11-14T10:21:18.920939Z: 13.0
+  2019-11-14T10:21:18.925066Z: 13.333333333333334
+errorMap:
+  1:
+    count: 4
+    error:
+      code: "1"
+      message: "Fake error message 1"
+      time: 1573726875.390133000
+  2:
+    count: 4
+    error:
+      code: "2"
+      message: "Fake error message 2"
+      time: 1573726878.381636000

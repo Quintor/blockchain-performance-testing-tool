@@ -1,0 +1,16 @@
+functions:
+  - function-id
+  - function-id
+contract:
+  address: '0x912930123'
+  binary: alkmdlkamfdaf
+  functionList:
+    - inputParameters: [Test parameter 1]
+      outputParameters: [Uint8]
+      type: QUERY
+    - inputParameters: [Test parameter 2]
+      name: function2
+      outputParameters: [Uint8]
+      type: TRANSACTION
+nodeUrl:
+wallet: test

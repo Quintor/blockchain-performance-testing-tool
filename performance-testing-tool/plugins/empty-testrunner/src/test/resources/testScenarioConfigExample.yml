@@ -1,0 +1,28 @@
+# this is just an example of a testscenario file your blockchain provider will only receive the config value block
+# for testing put the config values inside testRunnerConfigBlock.yml file
+runners:
+  testrunner1:
+    &testrunner
+    type: testrunner
+    providerId: blockchainprovider1
+    #  testrunner config block BEGIN
+
+    #  testrunner config block END
+  testrunner2:
+    <<: *testrunner
+    providerId: blockchainprovider2
+useProvidersForSetup:
+  blockchainprovider1:
+    passthroughSetupDataTo:
+      - blockchainprovider2
+providers:
+  blockchainprovider1: &blockchainprovider
+    type: empty-blockchainprovider
+    functions:
+      - function1
+      - function2
+    #  blockchain provider config block BEGIN
+
+    #  blockchain provider config block END
+  blockchainprovider2:
+    <<: *blockchainprovider
