@@ -1,0 +1,68 @@
+runners:
+  linear-testrunner1:
+    &linear-testrunner
+    type: linear-testrunner
+    providerId: ethereum-blockchainprovider1
+    txAmount: 1000
+    functionId: "giveRightToVote"
+  linear-testrunner2:
+    <<: *linear-testrunner
+    providerId: ethereum-blockchainprovider2
+  linear-testrunner3:
+    <<: *linear-testrunner
+    providerId: ethereum-blockchainprovider3
+  linear-testrunner4:
+    <<: *linear-testrunner
+    providerId: ethereum-blockchainprovider4
+  linear-testrunner5:
+    <<: *linear-testrunner
+    providerId: ethereum-blockchainprovider5
+useProvidersForSetup:
+  ethereum-blockchainprovider1:
+    passthroughSetupDataTo:
+      - ethereum-blockchainprovider2
+      - ethereum-blockchainprovider3
+      - ethereum-blockchainprovider4
+      - ethereum-blockchainprovider5
+providers:
+  ethereum-blockchainprovider1: &ethereum-blockchainprovider
+    type: ethereum-blockchainprovider
+    functions:
+      - giveRightToVote
+      - vote
+      - winningProposal
+    confirmCheckInterval: 1
+    contract:
+      address: ""
+      binary: ""
+      functionList:
+        - inputParameters: [""]
+          name: giveRightToVote
+          outputParameters: []
+          type: TRANSACTION
+        - inputParameters: [2]
+          name: vote
+          outputParameters: []
+          type: TRANSACTION
+        - inputParameters: []
+          name: winningProposal
+          outputParameters: [Uint8]
+          type: QUERY
+        - inputParameters: [5]
+          name: deploy
+          outputParameters: []
+          type: CONSTRUCTOR
+    nodeUrl:
+    wallet:
+  ethereum-blockchainprovider2:
+    <<: *ethereum-blockchainprovider
+    wallet:
+  ethereum-blockchainprovider3:
+    <<: *ethereum-blockchainprovider
+    wallet:
+  ethereum-blockchainprovider4:
+    <<: *ethereum-blockchainprovider
+    wallet:
+  ethereum-blockchainprovider5:
+    <<: *ethereum-blockchainprovider
+    wallet:

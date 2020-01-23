@@ -1,0 +1,12 @@
+# GITIGNORE BACKLIST BASED
+# ignore everything
+# things allowed
+.idea/
+performance-testing-tool/**/.mvn/
+performance-testing-tool/**/.idea/
+performance-testing-tool/**/*.iml
+performance-testing-tool/**/mvnw
+performance-testing-tool/**/mvnw.cmd
+performance-testing-tool/**/target/
+performance-testing-tool/application/dependency-reduced-pom.xml
+

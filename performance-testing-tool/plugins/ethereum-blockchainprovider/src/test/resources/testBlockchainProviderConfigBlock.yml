@@ -1,0 +1,24 @@
+# Your blockchain provider config block put values in yaml valid format below
+confirmCheckInterval: 1
+contract:
+  address:
+  binary:
+  functionList:
+    - inputParameters: []
+      name: giveRightToVote
+      outputParameters: []
+      type: TRANSACTION
+    - inputParameters: [2]
+      name: vote
+      outputParameters: []
+      type: TRANSACTION
+    - inputParameters: []
+      name: winningProposal
+      outputParameters: [Uint8]
+      type: QUERY
+    - inputParameters: [5]
+      name: deploy
+      outputParameters: []
+      type: CONSTRUCTOR
+nodeUrl:
+wallet:

@@ -1,0 +1,19 @@
+language: java
+
+addons:
+  sonarcloud:
+    organization: "quintor" # the key of the org you chose at step #3
+   
+jobs:
+    include:
+        - stage: compile
+          script: ./Travis-CI/compile.sh
+        - stage: test
+          script: ./Travis-CI/test.sh
+        - stage: deploy
+          script: ./Travis-CI/deploy.sh
+stages:
+  - compile
+  - test
+  - name: deploy
+    if: branch = release

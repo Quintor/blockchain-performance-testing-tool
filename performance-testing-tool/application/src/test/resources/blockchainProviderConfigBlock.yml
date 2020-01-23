@@ -1,0 +1,23 @@
+confirmCheckInterval: 1
+contract:
+  address: ""
+  binary: 1
+  functionList:
+    - inputParameters: [0]
+      name: giveRightToVote
+      outputParameters: []
+      type: TRANSACTION
+    - inputParameters: [2]
+      name: vote
+      outputParameters: []
+      type: TRANSACTION
+    - inputParameters: []
+      name: winningProposal
+      outputParameters: [Uint8]
+      type: QUERY
+    - inputParameters: [5]
+      name: deploy
+      outputParameters: []
+      type: CONSTRUCTOR
+nodeUrl: ""
+wallet: ""

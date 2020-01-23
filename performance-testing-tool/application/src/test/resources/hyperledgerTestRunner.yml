@@ -1,0 +1,43 @@
+runners:
+  linear-testrunner1:
+    &linear-testrunner
+    type: linear-testrunner
+    providerId: hyperledger-blockchainprovider1
+    txAmount: 10
+    functionId: "sendToB"
+providers:
+  hyperledger-blockchainprovider1: &hyperledger-blockchainprovider
+    type: hyperfabric-blockchainprovider
+    networkName: "mychannel"
+    contractName: "mycc"
+    networkConfigFile: "config/hyperledger/connection.json"
+    username: "admin"
+    orgMsp: "Org1MSP"
+    userCertificate: "config/hyperledger/cert.pem"
+    userPrivateKey: "config/hyperledger/key.pem"
+    maxAttempts: 1
+    functionList:
+      sendToB:
+        type: "TRANSACTION"
+        name: "invoke"
+        arguments:
+          - "a"
+          - "b"
+          - "10"
+      sendToA:
+        type: "TRANSACTION"
+        name: "invoke"
+        arguments:
+          - "b"
+          - "a"
+          - "10"
+      queryA:
+        type: "QUERY"
+        name: "query"
+        arguments:
+          - "a"
+      queryB:
+        type: "QUERY"
+        name: "query"
+        arguments:
+          - "b"

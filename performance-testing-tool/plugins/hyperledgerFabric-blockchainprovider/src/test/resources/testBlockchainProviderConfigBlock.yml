@@ -1,0 +1,34 @@
+---
+networkName: "mychannel"
+contractName: "mycc"
+networkConfigFile: "connection.json"
+username: "admin"
+orgMsp: "Org1MSP"
+userCertificate:
+userPrivateKey:
+maxAttempts: 1
+functionList:
+  sendToB:
+    type: "TRANSACTION"
+    name: "invoke"
+    arguments:
+      - "a"
+      - "b"
+      - "10"
+  sendToA:
+    type: "TRANSACTION"
+    name: "invoke"
+    arguments:
+      - "b"
+      - "a"
+      - "10"
+  queryA:
+    type: "QUERY"
+    name: "query"
+    arguments:
+      - "a"
+  queryB:
+    type: "QUERY"
+    name: "query"
+    arguments:
+      - "b"
